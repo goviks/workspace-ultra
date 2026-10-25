@@ -1,5 +1,7 @@
 # WorkSpace Ultra
 
+[![Deploy to GitHub Pages](https://github.com/goviks/workspace-ultra/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/goviks/workspace-ultra/actions/workflows/deploy-pages.yml)
+
 Персональная Kanban-доска для планирования задач. Приложение работает в браузере и сохраняет доску и настройки локально на устройстве пользователя.
 
 ## Онлайн-версия
