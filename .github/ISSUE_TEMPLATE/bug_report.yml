@@ -1,0 +1,46 @@
+name: Сообщить об ошибке
+description: Опишите проблему, с которой вы столкнулись.
+title: "[Ошибка]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Перед отправкой проверьте, нет ли уже открытого issue об этой проблеме.
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание
+      description: Что произошло?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      description: Перечислите действия, после которых появляется ошибка.
+      placeholder: |
+        1. Откройте...
+        2. Нажмите...
+        3. Ошибка появляется...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Браузер и версия
+      placeholder: Например, Chrome 130
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Операционная система
+      placeholder: Например, Windows 11
+    validations:
+      required: true

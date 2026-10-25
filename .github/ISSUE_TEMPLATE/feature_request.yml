@@ -1,0 +1,26 @@
+name: Предложить улучшение
+description: Расскажите о предлагаемой возможности.
+title: "[Предложение]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую проблему решит предложение?
+      description: Опишите сценарий или затруднение.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Предлагаемое решение
+      description: Опишите, как это могло бы работать.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Альтернативы
+      description: Укажите другие решения, если вы их рассматривали.
+    validations:
+      required: false
