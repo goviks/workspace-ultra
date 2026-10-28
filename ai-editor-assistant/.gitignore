@@ -1,0 +1,32 @@
+# Зависимости / сборка
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Переменные окружения с секретами
+.env
+.env.local
+.env*.local
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Vercel
+.vercel/
+
+# Скриншоты через headless-браузер
+.edge-profile/
+
+# Сгенерированный JSON-отчёт Lighthouse (HTML-версия коммитится)
+docs/lighthouse.report.json
