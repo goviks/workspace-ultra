@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AI-редактор">
-  <rect width="64" height="64" rx="14" fill="#6366F1" />
-  <path
-    d="M32 12l4.2 11.8L48 28l-11.8 4.2L32 44l-4.2-11.8L16 28l11.8-4.2L32 12z"
-    fill="#EEF2FF"
-  />
-  <path d="M46 40l2 5.6 5.6 2-5.6 2-2 5.6-2-5.6-5.6-2 5.6-2 2-5.6z" fill="#C7D2FE" />
-</svg>
